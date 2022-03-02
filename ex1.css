@@ -1,0 +1,22 @@
+.button-align {
+    float: right;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin-bottom-1000 {
+    margin-bottom: 1000px;
+}
+
+@media only screen and (max-width: 576px) {
+    .button-align {
+        background-color: blue;
+    }
+}
