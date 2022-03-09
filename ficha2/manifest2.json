@@ -2,7 +2,7 @@
     "name": "Formulario" ,
     "short_name": "Form" ,
     "display" : "standalone" , 
-    "start_url" : "/index2.html",
+    "start_url" : "/ficha2/index2.html",
     "theme_color" : "#2ae88f" ,
     "background_color" : "#ffffff" , 
 
