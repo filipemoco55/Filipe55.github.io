@@ -1,0 +1,17 @@
+.button-align {
+    float: right;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-1000 {
+    margin-bottom: 1000px;
+}
+
+@media only screen and (max-width: 576px) {
+    .button-align {
+        background-color: rgb(153, 187, 187);
+    }
+}
