@@ -2,5 +2,14 @@
     background-color: black;
     color: white;
     height: 55px;
+    text-align: center;
 
+}
+
+.center{
+background-color: grey;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+height: 520px;
 }

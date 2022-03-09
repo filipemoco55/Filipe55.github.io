@@ -12,46 +12,49 @@
 </head>
 <body>
     <div class="header">
-    <center><h2>Account-maker</h2></center>
+    <h2>Account-maker</h2>
 </div>
-
+<p>
+<div class="center">
     <div class="container">
-        <form id="myForm" onsubmit="submitform(event)">
-            <div class="col-sm-6">
+        <form id="myForm" onsubmit="enviar(event)">
+            <div class="col-sm-15">
                 <label class="form-label">Nome</label>
                 <input type="text" id="nome" class="form-control" required>
               </div>
-            <div class="col-sm-6">
+            <div class="col-sm-15">
               <label class="form-label">Email</label>
               <input type="email" id="email" class="form-control" required>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-15">
                 <label class="form-label">Número de telefone</label>
                 <input type="text" id="numero" class="form-control" required>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-15">
               <label class="form-label">Morada</label>
               <input type="text" id ="morada" class="form-control" required>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-15">
                 <label class="form-label">NIF</label>
                 <input type="text" id="nif" class="form-control" required>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-15">
                 <label class="form-label" >Observações</label>
                 <textarea class="form-control" id="obs"></textarea>
 
             </div>
+            <br>
             <button type="submit" onclick="mostrar()" class="btn btn-primary">Enviar</button>
         </form>
     </div>
+</div>
+</p>
+
 
     <script>
-        function submitform(e){
+        function enviar(e){
             e.preventDefault();
         }
-        
-
         function mostrar(){
             let nome = document.getElementById("nome").value;
             let email = document.getElementById("email").value;
@@ -67,16 +70,16 @@
                 return;
             }
             let obs = document.getElementById("obs").value;
-
             console.log(nome);
             console.log(email);
             console.log(numero);
             console.log(morada);
             console.log(nif);
             console.log(obs);
-
+            alert("Enviado com sucesso ")
             document.getElementById("myForm").reset();
         }
+        
     </script>
 
 </body>
