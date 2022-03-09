@@ -1,6 +1,6 @@
 {
-    "name": "Euromilhões" ,
-    "short_name": "Euromilhões" ,
+    "name": "Formulario" ,
+    "short_name": "Form" ,
     "display" : "standalone" , 
     "start_url" : "/index2.html",
     "theme_color" : "#2ae88f" ,
