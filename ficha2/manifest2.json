@@ -8,13 +8,13 @@
 
     "icons": [
         {
-            "src": "/icon-192x192.png",
-            "sizes": "830x465",
+            "src": "/form.png",
+            "sizes": "920x920",
             "type": "image/png"
         },
         {
-            "src": "/jackpot.png",
-            "sizes": "626x626",
+            "src": "/form2.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ]
