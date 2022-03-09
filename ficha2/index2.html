@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest2.json">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Ficha 2</title>
+</head>
+<body>
+    <div class="header">
+    <center><h2>Account-maker</h2></center>
+</div>
+
+    <div class="container">
+        <form id="myForm" onsubmit="submitform(event)">
+            <div class="col-sm-6">
+                <label class="form-label">Nome</label>
+                <input type="text" id="nome" class="form-control" required>
+              </div>
+            <div class="col-sm-6">
+              <label class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="col-sm-6">
+                <label class="form-label">Número de telefone</label>
+                <input type="text" id="numero" class="form-control" required>
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label">Morada</label>
+              <input type="text" id ="morada" class="form-control" required>
+            </div>
+            <div class="col-sm-6">
+                <label class="form-label">NIF</label>
+                <input type="text" id="nif" class="form-control" required>
+            </div>
+            <div class="col-sm-6">
+                <label class="form-label" >Observações</label>
+                <textarea class="form-control" id="obs"></textarea>
+
+            </div>
+            <button type="submit" onclick="mostrar()" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        function submitform(e){
+            e.preventDefault();
+        }
+        
+
+        function mostrar(){
+            let nome = document.getElementById("nome").value;
+            let email = document.getElementById("email").value;
+            let numero = document.getElementById("numero").value;
+            if(numero.length>=10){
+                alert("O número de telefone tem de ter 9 digitos");
+                return;
+            }
+            let morada = document.getElementById("morada").value;
+            let nif = document.getElementById("nif").value;
+            if(nif.length>=10){
+                alert("O NIF tem de ter 9 digitos");
+                return;
+            }
+            let obs = document.getElementById("obs").value;
+
+            console.log(nome);
+            console.log(email);
+            console.log(numero);
+            console.log(morada);
+            console.log(nif);
+            console.log(obs);
+
+            document.getElementById("myForm").reset();
+        }
+    </script>
+
+</body>
+</html>
