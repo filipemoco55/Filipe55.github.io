@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+div.center{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.center h1{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.card{
+    letter-spacing: 5px;
+    font-family: Verdana;
+    width: 300px;
+    height: 200px;
+    border-radius: 3px;
+    border-width: medium;
+    border-style: solid;
+    border-color: #ff7e5f;
+    background: linear-gradient(#ff7e5f, #feb47b);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.card p, h1{
+    display: inline-block;
+    vertical-align:sub;
+}
+
+.card p{
+    size: 12px;
+    font-style: italic;
+}
+
+.card-center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+
+
+
+

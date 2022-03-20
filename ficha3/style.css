@@ -1,0 +1,132 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+div{
+  margin-top: 50px;
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: grey;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: grey;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .grid2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      color: grey;
+      border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  }
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  color: grey;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 576px){
+  .grid3{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-color: white;
+      color: grey;
+      border: 1px solid black;
+      font-size: 30px;
+      text-align: center;
+  }
+}
+
+.grid4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  background-color: white;
+}
+
+@media (min-width: 576px){
+  .grid4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 2fr;
+      background-color: white;
+      color: grey;
+      border: 1px solid black;
+      font-size: 30px;
+      text-align: center;
+  }
+}
+
+.grid5{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  color: grey;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 576px){
+  .grid5{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (min-width: 768px){
+  .grid5{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid6{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  color: grey;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 576px){
+  .grid6{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (min-width: 768px){
+  .grid5{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px){
+  .grid6{
+      display: grid;
+      grid-template-columns: 66% 33%;
+      background-color: white;
+  }
+}
