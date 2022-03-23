@@ -8,14 +8,14 @@
 
     "icons": [
         {
-            "src": "/nba.jpg",
-            "sizes": "500x500",
-            "type": "image/jpg"
+            "src": "/nba.png",
+            "sizes": "700x393",
+            "type": "image/png"
         },
         {
-            "src": "/nba2.jpg",
-            "sizes": "648x365",
-            "type": "image/jpg"
+            "src": "/nba2.png",
+            "sizes": "984x839",
+            "type": "image/png"
         }
     ]
 }
