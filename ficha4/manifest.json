@@ -2,20 +2,20 @@
     "name": "NBA" ,
     "short_name": "NBA" ,
     "display" : "standalone" , 
-    "start_url" : "/ficha4/index.html",
-    "theme_color" : "#2ae88f" ,
+    "start_url" : "index.html",
+    "theme_color" : "blue" ,
     "background_color" : "#ffffff" , 
 
     "icons": [
         {
-            "src": "/nba.png",
-            "sizes": "700x393",
+            "src": "icon1-500x500.png",
+            "sizes": "500x500",
             "type": "image/png"
         },
         {
-            "src": "/nba2.png",
-            "sizes": "984x839",
-            "type": "image/png"
+            "src": "icon2-900x900.jpg",
+            "sizes": "900x900",
+            "type": "image/jpg"
         }
     ]
 }
