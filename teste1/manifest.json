@@ -1,0 +1,21 @@
+{
+    "name": "Teste1" ,
+    "short_name": "teste1" ,
+    "display" : "standalone" , 
+    "start_url" : "index.html",
+    "theme_color" : "blue" ,
+    "background_color" : "#ffffff" , 
+
+    "icons": [
+        {
+            "src": "list.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "to-do-list.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
